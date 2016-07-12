@@ -1,4 +1,5 @@
-# SocialSignUpFirst get a permission for development by clicking as developer.then do useful settings in Facebook 
+# FB Login integration to iOS App
+ First get a permission for development by clicking as developer.then do useful settings in Facebook 
 
 select environment like iOS,download SDK and import FBCoreKit,shareKit and Loging kit to Xcode . 
 write your bundle identifier in that page of FB.
