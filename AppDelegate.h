@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  SocialSignUp
 //
 //  Created by jayaprada on 12/07/16.
@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
+ #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <Google/SignIn.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) ViewController *viewController;
 
 @end
 
