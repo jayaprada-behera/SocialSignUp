@@ -1,4 +1,5 @@
-# FB Login integration to iOS App
+# FB && Google Login integration to iOS App
+  # FB
  First get a permission for development by clicking as developer.then do useful settings in Facebook 
 
 select environment like iOS,download SDK and import FBCoreKit,shareKit and Loging kit to Xcode . 
@@ -30,5 +31,12 @@ application:(UIApplication *)application
 
 Then come to ViewController .Fb has its own FBLoginButton .
 Or else we can create our custom button for FBLogin and If you are interested you can give permission like "email",@"public_profile",@"user_friends".
+
+#Google
+ Install cocoa pod for Google sign in.
+ Its very simple to use .everything is availabe in google developer guide.
+ GIDSignIn is used for signIn ,Signout and Disconnect
+ 
+   [[GIDSignIn sharedInstance] signIn] is used for google sign in
 
 
