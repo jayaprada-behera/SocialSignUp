@@ -1,5 +1,7 @@
 # FB && Google Login integration to iOS App
-  # FB
+
+# FB
+
  First get a permission for development by clicking as developer.then do useful settings in Facebook 
 
 select environment like iOS,download SDK and import FBCoreKit,shareKit and Loging kit to Xcode . 
