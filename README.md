@@ -36,6 +36,7 @@ Or else we can create our custom button for FBLogin and If you are interested yo
 
 #Google
  Install cocoa pod for Google sign in.
+ Insert one more row for URLTypes in Info.plist .In URLScheme we have to mention key got from google and BundleID
  Its very simple to use .everything is availabe in google developer guide.
  GIDSignIn is used for signIn ,Signout and Disconnect
  
